@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 11 Feb 2021 10:00:59 at http://utouchdesign.com/themes/envato/escort/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://utouchdesign.com/themes/envato/escort/ -O1 "C:\xampp\htdocs\career1\career1" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:04:47	Warning: 	Retry after error 409 (Conflict) at link utouchdesign.com/themes/envato/escort/contact.html (from utouchdesign.com/themes/envato/escort/)
+10:04:47	Warning: 	Retry after error -4 (No data (connection closed)) at link utouchdesign.com/themes/envato/escort/profile-settings.php (from utouchdesign.com/themes/envato/escort/)
+10:05:44	Error: 	"Not Found" (404) at link utouchdesign.com/themes/envato/escort/create-resume.html (from utouchdesign.com/themes/envato/escort/profile-settings.html)
+10:05:44	Warning: 	Retry after error 409 (Conflict) at link utouchdesign.com/themes/envato/escort/contact.html (from utouchdesign.com/themes/envato/escort/)
+10:05:45	Error: 	"Conflict" (409) after 2 retries at link utouchdesign.com/themes/envato/escort/contact.html (from utouchdesign.com/themes/envato/escort/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 46 seconds : 99 links scanned, 93 files written (6151407 bytes overall) [5876146 bytes received at 20545 bytes/sec], 409869 bytes transferred using HTTP compression in 21 files, ratio 26%, 1.9 requests per connection
+(2 errors, 3 warnings, 0 messages)

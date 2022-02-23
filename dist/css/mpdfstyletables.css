@@ -1,0 +1,110 @@
+body{
+  font-family:14px;
+}
+.table{
+    border-collapse:collapse;
+
+    border:1px solid #000;
+    font-size:16px;
+    page-break-inside: always;
+
+}
+.table thead{
+  border-collapse:collapse;
+
+    border:1px solid #000;
+    font-size:16px;
+}
+.table tr{
+  border-collapse:collapse;
+
+    border:1px solid #000;
+    font-size:16px;
+    page-break-inside: always;
+}
+.table td{
+  border-collapse:collapse;
+
+    border:1px solid #000;
+    font-size:16px;
+    page-break-inside: always;
+}
+.numbering{
+  width: 3%;
+}
+.table thead tr td{
+  font-weight: bold;
+}
+table tr td{
+  font-size: 30px;
+}
+table tr td span{
+  font-size: 30px;
+}
+.risk-div-background{
+  background-size: 100%;
+}
+.generate-pdf-btn{
+  display: none;
+}
+#detailed_activities_related_risks_table tr{
+  page-break-after: avoid;
+}
+.corporate-risk-management-report-header{
+  padding-top: 200px;
+}
+.heatmap-risks-chart{
+  width: 100%;
+  page-break-inside: avoid;
+}
+.heatmap-ratings-table{
+  width: 100%;
+}
+.heatmap-opportunity-chart{
+  width: 100%;
+  page-break-inside: avoid;
+
+}
+#corporate-risk-analysis-heatmap{
+  width: 20px;
+  height: 10px;
+  page-break-inside: avoid;
+}
+.activity-font{
+  font-size: 41px;
+}
+.activity-font-directorate{
+  font-size: 12px;
+}
+.activity-font-directorate-header{
+  font-size: 14px;
+}
+.driver-rating{
+  font-size: 100px;
+}
+td img:{
+  width: 300px;
+  height: 300px;
+}
+.paragraph-font{
+  font-size: 100px;
+}
+.paragraph-font-lessons{
+  font-size: 50px;
+}
+.multiple-risks-table{
+  /*border-style: hidden;*/
+}
+.activity_update_header{
+  width: 800;
+  font-size: 50px;
+}
+.department-analysis-font{
+  font-size: 300px;
+}
+.department-analysis-font-opportunies{
+  font-size: 50px;
+}
+.department-analysis-font-driver{
+  font-size: 300px;
+}

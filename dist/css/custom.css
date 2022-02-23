@@ -1,0 +1,192 @@
+
+.children{
+      margin-left:30px;
+}
+thead tr td{
+      font-weight: bold;
+}
+.required{
+  color: red;
+  padding-right: 5px;
+}
+
+.edit-update-status-modal{
+    overflow-x: auto;
+}
+/* for animating new risk in REPORTS
+*/
+.new-risks{
+        -webkit-animation: color-change 1s infinite;
+        -moz-animation: color-change 1s infinite;
+        -o-animation: color-change 1s infinite;
+        -ms-animation: color-change 1s infinite;
+        animation: color-change 1s infinite;
+    }
+
+    @-webkit-keyframes color-change {
+        50% { color: white; }
+        100% { color: green; }
+    }
+    @-moz-keyframes color-change {
+      50% { color: white; }
+      100% { color: green; }
+    }
+    @-ms-keyframes color-change {
+      50% { color: white; }
+      100% { color: green; }
+    }
+    @-o-keyframes color-change {
+      50% { color: white; }
+      100% { color: green; }
+    }
+    @keyframes color-change {
+      50% { color: white; }
+      100% { color: green; }
+    }
+
+.hitmap_bubble{
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+.rating p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+
+
+/* for making days remaining none blink */
+.days_remaining_none {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+/* ensure readonly is required */
+input[data-readonly] {
+  pointer-events: none;
+}
+
+/* multi step form for strategic objectives */
+.stepwizard-step p {
+    margin-top: 10px;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 50%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.add-strategic-kpi-table th, .add-strategic-kpi-table td{
+  border: 1px solid #ddd!important;
+}
+
+/*  overide select2 multiple css color */
+.select2-container--default .select2-selection--multiple .select2-selection__choice{color:black; background: white;}
